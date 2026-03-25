@@ -1,57 +1,264 @@
-/* General */
+/* =====================
+   FONTS & BASE
+   ===================== */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Open+Sans:wght@300;400;600&display=swap');
+
 body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.8;
+  color: #2d2d2d;
 }
 
-/* Navbar */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #2c3e50;
+}
+
+/* =====================
+   NAVBAR
+   ===================== */
 .navbar {
-  background-color: #2c3e50 !important;
+  background-color: rgba(30, 50, 60, 0.92) !important;
+  backdrop-filter: blur(6px);
+  padding: 0.75rem 2rem;
 }
 
-.navbar-brand, .nav-link {
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
   color: #ffffff !important;
+  letter-spacing: 0.05em;
+}
+
+.nav-link {
+  color: rgba(255,255,255,0.85) !important;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0.3rem;
+  transition: color 0.2s;
 }
 
 .nav-link:hover {
   color: #a8d5e2 !important;
 }
 
-/* Headings */
-h1, h2, h3 {
-  color: #2c3e50;
+/* =====================
+   HERO BANNER
+   ===================== */
+.hero-banner {
+  width: 100vw;
+  height: 70vh;
+  min-height: 400px;
+  background-image: url('images/banner.jpg');
+  background-size: cover;
+  background-position: center 60%;
+  position: relative;
+  margin-left: calc(-50vw + 50%);
+  margin-top: -1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-h2 {
+.hero-banner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(20,40,55,0.35) 0%, rgba(20,40,55,0.55) 100%);
+}
+
+.hero-overlay {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 600;
+  color: white !important;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.04em;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+}
+
+.hero-subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(0.9rem, 2vw, 1.15rem);
+  font-weight: 300;
+  color: rgba(255,255,255,0.92);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+}
+
+/* =====================
+   ABOUT SECTION
+   ===================== */
+.about-section {
+  max-width: 1000px;
+  margin: 3.5rem auto;
+  padding: 0 1.5rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.about-photo {
+  text-align: center;
+}
+
+.headshot {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #a8d5e2;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.15);
+  margin-bottom: 1.2rem;
+}
+
+.about-photo p {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.about-photo a {
+  color: #2980b9;
+}
+
+.about-text h2 {
   border-bottom: 2px solid #a8d5e2;
-  padding-bottom: 6px;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+/* =====================
+   RESEARCH CARDS
+   ===================== */
+.research-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 16px rgba(0,0,0,0.08);
+  margin-bottom: 2rem;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.research-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.13);
+}
+
+.research-card-inner {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+}
+
+.research-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.research-body {
+  padding: 1.8rem 2rem;
+}
+
+.research-body h3 {
+  margin-top: 0;
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+
+.research-body h3 a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.research-body h3 a:hover {
+  color: #2980b9;
+}
+
+/* =====================
+   PAGE HEADINGS
+   ===================== */
+#quarto-content h2 {
+  border-bottom: 2px solid #a8d5e2;
+  padding-bottom: 0.4rem;
   margin-top: 2rem;
 }
 
-/* Links */
+/* =====================
+   LINKS
+   ===================== */
 a {
   color: #2980b9;
+  transition: color 0.2s;
 }
 
 a:hover {
   color: #1a5276;
 }
 
-/* Footer */
+/* =====================
+   FOOTER
+   ===================== */
 .nav-footer {
-  background-color: #2c3e50;
-  color: #ecf0f1;
-  font-size: 0.85rem;
+  background-color: #1e323c;
+  color: rgba(255,255,255,0.7);
+  font-size: 0.82rem;
+  padding: 1rem;
 }
 
-/* CV button */
+/* =====================
+   CV BUTTON
+   ===================== */
 .btn-primary {
   background-color: #2c3e50;
   border-color: #2c3e50;
   margin-bottom: 1.5rem;
+  border-radius: 4px;
+  padding: 0.5rem 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
 }
 
 .btn-primary:hover {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+/* =====================
+   RESPONSIVE
+   ===================== */
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-photo {
+    margin-bottom: 1rem;
+  }
+  .research-card-inner {
+    grid-template-columns: 1fr;
+  }
+  .research-img img {
+    height: 200px;
+  }
+  .hero-banner {
+    height: 50vh;
+  }
 }

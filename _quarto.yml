@@ -17,10 +17,11 @@ website:
       - href: contact.qmd
         text: Contact
   page-footer:
-    center: "© 2026 Kinsey Matthews | Bren School of Environmental Science & Management"
+    center: "© 2026 Kinsey Matthews &nbsp;|&nbsp; Bren School of Environmental Science & Management"
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
+    page-layout: full

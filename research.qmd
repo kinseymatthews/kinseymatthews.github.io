@@ -1,0 +1,23 @@
+---
+title: "Research"
+---
+
+Broadly, my dissertation research addresses spatial management-related questions at the intersection of marine species distributions, climate change, and human uses of the ocean.
+
+---
+
+## Chapter 1: Climate Change and Management Impacts on California Fishing Grounds
+
+We are measuring how the distribution of California state-managed fishing grounds changed from 1980–2024 and how management, market forces, and climate variability influence those changes.
+
+---
+
+## Chapter 2: Joint Dynamic Species Distribution Models to Reduce Bycatch in the Eastern Tropical Pacific
+
+We are using joint dynamic species distribution models (JDSDMs) to model species caught as target catch and bycatch within industrial tuna fisheries in the Eastern Tropical Pacific (ETP) to characterize bycatch risk. I am leading work to forecast these interactions in near real time to identify areas that minimize bycatch while maximizing target catch.
+
+---
+
+## Chapter 3: Connectivity of Highly Migratory Species Within West Coast National Marine Sanctuaries
+
+We will evaluate highly migratory species (HMS) habitat use and connectivity across California's National Marine Sanctuary (NMS) network and forecast HMS distributions under climate change scenarios to understand how habitat use of NMS waters might change in the future. This work has direct implications for conservation and management of these species.

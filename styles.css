@@ -1,0 +1,57 @@
+/* General */
+body {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2c3e50 !important;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #a8d5e2 !important;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+h2 {
+  border-bottom: 2px solid #a8d5e2;
+  padding-bottom: 6px;
+  margin-top: 2rem;
+}
+
+/* Links */
+a {
+  color: #2980b9;
+}
+
+a:hover {
+  color: #1a5276;
+}
+
+/* Footer */
+.nav-footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  font-size: 0.85rem;
+}
+
+/* CV button */
+.btn-primary {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary:hover {
+  background-color: #1a252f;
+  border-color: #1a252f;
+}

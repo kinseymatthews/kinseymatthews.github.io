@@ -1,0 +1,37 @@
+---
+title: "Publications"
+---
+
+## Peer-Reviewed Publications
+
+**Langlois, T., C. Spencer, B. A. Gibbons, K. J. Griffin, K. Adams, C. Aston, N. Barrett, A. Bastiaansen, D. Beach, A. Bernard, T. Bond, G. R. Carey, J. E. Caselle, K. Cieri, G. H. Cummins, K. Cure, S. de Lestang, J. Fitzhardinge, A. Giraldo-Ospina, G. Grammer, D. R. Guilfoyle, C. Henderson, S. Hickey, J. Hicks, R. Hovey, C. Huveneers, D. Ierodiaconou, J. Keesing, N. Knott, J. L. Lavers, S. Lindfield, J. Lindholm, S. Mastrantonis, K. Matthews, M. L. Navarro, J. Partridge, D. Pelletier, C. V. H. Piggott, R. Przeslawski, B. Radford, M. Rees, R. Reynolds, F. A. Rolim, A. Smith, F. Spencer, R. Starr, S. Thompson, I. Webb, W. Webb, S. Whitmarsh, J. Williams, and J. Monk.**
+Benthic Observation Survey System (BOSS) for surveys of marine benthic habitats.
+*Methods in Ecology and Evolution.*
+[https://doi.org/10.1111/2041-210X.70010](https://doi.org/10.1111/2041-210X.70010)
+
+---
+
+**Matthews, K., R. Fields, K. Cieri, J. Mohay, M. Gleason, R. Starr.**
+Stereo-video landers can rapidly assess marine fish diversity and community assemblages.
+*Frontiers in Marine Science.*
+[https://doi.org/10.3389/fmars.2024.1368083](https://doi.org/10.3389/fmars.2024.1368083)
+
+---
+
+**Matthews, K., J. Mohay, J. Todd, R. Starr. 2022.**
+Bycatch in the California halibut (*Paralichthys californicus*) trawl fishery.
+*Bulletin of the Southern California Academy of Sciences.* 121(2): 88–109.
+
+---
+
+**Araujo, G., C. Legaspi, K. Matthews, A. Ponzo, A. Chin, M. Manjaji-Matsumoto B. 2020.**
+Citizen science sheds light on the cryptic ornate eagle ray *Aetomylaeus vespertilio.*
+*Aquatic Conservation: Marine and Freshwater Ecosystems.* 30:10.
+
+---
+
+## In Preparation
+
+**Matthews, K., R. Starr.**
+Improving species distribution models of continental shelf fishes off California.
+*For submission to Diversity and Distributions.*

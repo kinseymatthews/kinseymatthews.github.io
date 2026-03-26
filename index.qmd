@@ -6,7 +6,6 @@ title: ""
 <div class="hero-banner">
   <div class="hero-overlay">
     <h1 class="hero-title">Kinsey Matthews</h1>
-    <p class="hero-subtitle">PhD Student &nbsp;|&nbsp; Marine Science &nbsp;|&nbsp; Ocean Management</p>
   </div>
 </div>
 ```

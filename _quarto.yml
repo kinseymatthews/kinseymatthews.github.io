@@ -1,7 +1,8 @@
 project:
   type: website
   output-dir: docs
-
+  resources:
+    - google6f5b9ca603795926.html
 website:
   title: "Kinsey Matthews"
   navbar:

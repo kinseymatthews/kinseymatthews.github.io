@@ -29,9 +29,3 @@ Citizen science sheds light on the cryptic ornate eagle ray *Aetomylaeus vespert
 *Aquatic Conservation: Marine and Freshwater Ecosystems.* 30:10.
 
 ---
-
-## In Preparation
-
-**Matthews, K., R. Starr.**
-Improving species distribution models of continental shelf fishes off California.
-*For submission to Diversity and Distributions.*
